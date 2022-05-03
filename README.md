@@ -5,13 +5,9 @@ const Profile = {
     name: "Henry Jimenez",
     code: "JavaScript, HTML, CSS, NodeJS, VueJS",
     organizations: "LaunchX",
-
-    getGeneralInfo: function(){
-      return `Me llamo ${this.name}, cuento con estos conocimientos en estos lenguaje de programación ${this.code}, actualmente estoy en el curso de ${this.organizations}`
-    }
 }
 
-console.log(Profile.getGeneralInfo())
+console.log(Profile)
 ```
 
 #### Follow me
